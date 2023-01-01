@@ -1,0 +1,38 @@
+/* .shop-area {
+  margin: auto;
+  text-align: center;
+} */
+.card-img-top {
+  width: 100% !important;
+  height: 225px !important;
+}
+
+.shop-title {
+  color: mediumvioletred !important;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.empty-cart {
+  font-weight: bold;
+  font-size: 1.54rem;
+  color: orangered;
+  text-align: center;
+}
+
+.rating {
+  margin: 5% 0% !important;
+}
+
+@media (max-width: 768px) {
+  .product {
+    max-height: 60vh !important;
+    overflow: scroll;
+  }
+  .page {
+    max-height: 60vh !important;
+  }
+  .total {
+    font-size: 1.25rem;
+  }
+}
